@@ -48,29 +48,22 @@ O sistema oferece ainda um recurso de empréstimos, permitindo que os usuários 
 
 # Requisitos Funcionais 
 
-
-FIXME: COLOCAR NO PADRÃO.
-
 **Entradas**
 
-- **R.F.01- Cadastro de usuário:** Para cadastro de usuário é necessário fornecer dados como nome, email e senha, criação de perfis e permissões de acesso. Usuário: todos os níveis de usuário.
-- **R.F.02- Cadastro de livros:** Para cadastro de livros FIXME:  precisa de dados como categoria, editora, autor e localização. Usuário: todos os níveis de usuário. 
-- **R.F.03- Cadastro de feedback:** Para cadastro de feedback precisa de dados como nome do livros, nome do usuário e comentário sobre o livro. Usuário: todos os níveis de usuário.
+- **R.F.01- Cadastro de usuário:** Tem como propósito a criação de usuários no sistema, direcionando para a página de criação. Dados necessários: nome, email e senha, criação de perfis e permissões de acesso. Usuário: todos os níveis de usuário.
+- **R.F.02- Cadastro de livros:** Tem como propósito adicionar livros ao sistema,verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página cadastro. Dados necessários: categoria, editora, autor e localização. Usuário: todos os níveis de usuário. 
+- **R.F.03- Cadastro de feedback:** Tem como proṕosito informar os usuários de quais são os livros mais lidos e emprestados. Dados necessários: nome do livros, nome do usuário e comentário sobre o livro. Usuário: todos os níveis de usuário.
+- 
 
 **Processos**
 
-- **R.F.04- Registro de empréstimos:** Para registrar um empréstimo de livro é necessário nome do usuário, nome do livro e data de empréstimo e devolução. Usuário: todos os níveis de usuário.
-- **R.F.05- Devolução de empréstimo:** Para registro de devolução de empréstimo é necessário nome de usuário, nome do livro e data da devolução. Usuário: todos os níveis de usuário.
-- **R.F.06- Autenticação de usuário:** Auteticação de login e senha.
+- **R.F.04- Registro de empréstimos:** Tem como propósito autenticar o acesso ao livro, verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página de solicitação. Dados necessários: nome do usuário, nome do livro e data de empréstimo e devolução. Usuário: todos os níveis de usuário.
+- **R.F.05- Devolução de empréstimo:** Tem como propósito autenticar o acesso ao livro, verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página devolução. Dados necessários: nome de usuário, nome do livro e data da devolução. Usuário: todos os níveis de usuário.
+- **R.F.06- Autenticação de usuário:** Tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página principal de confirmação. Dados necessários: login e senha. Usuário: todos os níveis de usuário.
 
 **Saídas**
 
-- **R.F.07 - Relatório de livros mais emprestados:** Tem como propósito informar qua RELAÇÃO DE LIVROS emprestadoS. Usuário: todos os níveis de usuário.
-FIXME:  
-
-TODO: RELATÓRIO DE LIVROS QUE ESTÃO EMPRESTADOS.
-
-TODO: RELATÓRIO DE LIVROS QUE ESTÃO VENCIDOS.
+- **R.F.07 - Relatório de livros emprestados:** Tem como propósito informar quais são os livros mais emprestados, os que estão emprestados no momento e os que estão vencidos. Dados necessários: nome do livro, data de empréstimo e data de devoluçaõ, categoria, editora e autor. Usuário: todos os níveis de usuário.
 
 # Requisitos Não Funcionais
 
@@ -78,12 +71,10 @@ TODO: RELATÓRIO DE LIVROS QUE ESTÃO VENCIDOS.
 - **R.N.F. 02 - Usabilidade:** Responsavidade, para se adaptar a diferentes tamanhos de tela.
 - **R.N.03 - Desempenho:** Carregamento rápido das informações dos livros e empréstimos. Eficiência no processamento das operações de adição, edição e exclusão de dados.
 - **R.N.F. 04 - Autenticação:** será feita por senha, que será criptografada para armazenamento no banco.
-- **R.N.F. 06 - Tecnologia Front-end:** Para a exibição em front-end, o software utilizará o CSS3 e o HTML5, além do framework VueJS.
+- **R.N.F. 06 - Tecnologia Front-end:** Para a exibição em front-end, o software utilizará o CSS3 e o HTML5, além do framework VueJS para a interface Web.
 - **R.N.F. 07 - Tecnologia Back-end:** O software será desenvolvido utilizando o framework Django com DRF.
 - **R.N.F. 08 - Segurança:** Proteção de dados do usuário por meio de autenticação e autorização adequadas. Criptografia dos dados sensíveis armazenados.
 - **R.N.F 09 - Confiabilidade:** Backup e recuperação de dados da aplicação. Detecção e tratamento de erros e exceções.
 - **R.N.F 10 - Escalabilidade:** Capacidade de lidar com um grande número de livros e usuários. Dimensionamento da infraestrutura de acordo com o crescimento da aplicação.
+- **R.N.F 11 - Tecnologia Mobile:** Para a criação de interfaces interativas e responsivas e para aplicativo móvel, utilizaremos React Native. Faremos uso de componentes reutilizáveis, rotas para navegação entre as páginas e integração com uma API para persistência dos dados.
 
-FIXME: TECNOLOGIA MOBILE
-
-A nosso projeto será desenvolvido utilizando o framework Vue.js para a interface Web, que oferece um ambiente de desenvolvimento rápido e eficiente. Para a criação de interfaces interativas e responsivas e para aplicativo móvel, utilizaremos React Native. Faremos uso de componentes reutilizáveis, rotas para navegação entre as páginas e integração com uma API para persistência dos dados.
