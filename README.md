@@ -38,28 +38,27 @@ O sistema oferece ainda um recurso de empréstimos, permitindo que os usuários 
 # Regras de Negócio
 
 - **RN001- Cadastro de livros:** Para registrar seus livros, o usuário deve estar cadastrado no sistema.
-- **RN002- Autorização:** Os usuários devem solicitar autorização para acesso das bibliotecas.
-- **RN003- Status do livro:** Os livros terão status: se estão ou não disponíveis para empréstimos, ou se são livros privados, isto é, que não aparecem para visualização por outros usuários.
-- **RN004- Registro de empréstimos:** Ao registrar um empréstimo, é necessário fornecer as informações do livro emprestado e da pessoa para quem foi emprestado.
-- **RN005- Cadastro de categoria:** Os usuários podem adicionar tags ou categorias personalizadas para organizar sua coleção de livros.
-- **RN006- Favoritar:** É possível marcar livros como favoritos para facilitar o acesso rápido. 
-- **RN007- Cadastro de feedback:** O usuário pode registrar um feedback sobre os livros que ele emprestou.
-- **RN008- Relatórios:** O administrador deve possuir acesso aos relatórios.
+- **RN002- Status do livro:** Os livros terão status: se estão ou não disponíveis para empréstimos, ou se são livros privados, isto é, que não aparecem para visualização por outros usuários.
+- **RN003- Registro de empréstimos:** Ao registrar um empréstimo, é necessário fornecer as informações do livro emprestado e da pessoa para quem foi emprestado.
+- **RN004- Cadastro de categoria:** Os usuários podem adicionar tags ou categorias personalizadas para organizar sua coleção de livros.
+- **RN005- Favoritar:** É possível marcar livros como favoritos para facilitar o acesso rápido. 
+- **RN006- Cadastro de feedback:** O usuário pode registrar um feedback sobre os livros que ele emprestou.
+- **RN007- Relatórios:** O administrador deve possuir acesso aos relatórios.
 
 # Requisitos Funcionais 
 
 **Entradas**
 
-- **R.F.01- Cadastro de usuário:** Tem como propósito a criação de usuários no sistema, direcionando para a página de criação. Dados necessários: nome, email e senha, criação de perfis e permissões de acesso. Usuário: todos os níveis de usuário.
-- **R.F.02- Cadastro de livros:** Tem como propósito adicionar livros ao sistema,verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página cadastro. Dados necessários: categoria, editora, autor e localização. Usuário: todos os níveis de usuário. 
-- **R.F.03- Cadastro de feedback:** Tem como proṕosito informar os usuários de quais são os livros mais lidos e emprestados. Dados necessários: nome do livros, nome do usuário e comentário sobre o livro. Usuário: todos os níveis de usuário.
+- **R.F.01- Cadastro de cliente:** Tem como propósito a criação de contas para clientes no sistema, direcionando para a página de criação. Dados necessários: nome, email e senha, criação de perfis e permissões de acesso. Usuário: todos os níveis de usuário.
+- **R.F.02- Cadastro de livros:** Tem como propósito adicionar livros ao sistema,verificando se o cliente pode acessá-lo e, caso possa, o direcionando para a página cadastro. Dados necessários: categoria, editora, autor e localização. Usuário: todos os níveis de usuário. 
+- **R.F.03- Cadastro de feedback:** Tem como proṕosito informar os clientes de quais são os livros mais lidos e emprestados. Dados necessários: nome do livros, nome do usuário e comentário sobre o livro. Usuário: todos os níveis de usuário.
 - 
 
 **Processos**
 
-- **R.F.04- Registro de empréstimos:** Tem como propósito autenticar o acesso ao livro, verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página de solicitação. Dados necessários: nome do usuário, nome do livro e data de empréstimo e devolução. Usuário: todos os níveis de usuário.
-- **R.F.05- Devolução de empréstimo:** Tem como propósito autenticar o acesso ao livro, verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página devolução. Dados necessários: nome de usuário, nome do livro e data da devolução. Usuário: todos os níveis de usuário.
-- **R.F.06- Autenticação de usuário:** Tem como propósito autenticar o acesso ao sistema, verificando se o usuário pode acessá-lo e, caso possa, o direcionando para a página principal de confirmação. Dados necessários: login e senha. Usuário: todos os níveis de usuário.
+- **R.F.04- Registro de empréstimos:** Tem como propósito autenticar o acesso ao livro, verificando se o cliente pode acessá-lo e, caso possa, o direcionando para a página de solicitação. Dados necessários: nome do usuário, nome do livro e data de empréstimo e devolução. Usuário: todos os níveis de usuário.
+- **R.F.05- Devolução de empréstimo:** Tem como propósito autenticar o acesso ao livro, verificando se o cliente pode acessá-lo e, caso possa, o direcionando para a página devolução. Dados necessários: nome de usuário, nome do livro e data da devolução. Usuário: todos os níveis de usuário.
+- **R.F.06- Autenticação de conta:** Tem como propósito autenticar o acesso ao sistema, verificando se o cliente pode acessá-lo e, caso possa, o direcionando para a página principal de confirmação. Dados necessários: login e senha. Usuário: todos os níveis de usuário.
 
 **Saídas**
 
