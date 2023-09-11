@@ -17,6 +17,11 @@ DbModeller -
 Diagrama - 
 ![image](https://github.com/davigtomaz/pi_modelo/assets/94870528/66d6769d-b9cc-47c6-97ee-77ad09feddc6)
 
+VueJs - 
+![image](https://github.com/davigtomaz/pi_modelo/assets/94870528/35b66c47-cc14-42ee-b742-9c93746cedc2)
+
+
+
 
 
 
