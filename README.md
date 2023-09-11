@@ -6,9 +6,19 @@ Alunos: [Davi Gabriel Tomaz](https://github.com/davigtomaz) e [Ariane Tainara Ju
 
 Links do projeto:
 
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
--   [Backend](github.com/marcoandre/pi-backend)
--   [Frontend](github.com/marcoandre/pi-frontend)
+-   [Documentação (esse documento)](github.com/davigtomaz/pi_modelo)
+-   [Backend](github.com/ArianeJunkes/PI-3ano-Django)
+-   [Frontend](github.com/davigtomaz/PI-3ano-VueJS)
+-   [Mobile](github.com/davigtomaz/PI-3ano-ReactNative)
+
+DbModeller -
+![image](https://github.com/davigtomaz/pi_modelo/assets/94870528/3dcfb7d1-4b92-44fa-a50b-feaf83d96d91)
+
+Diagrama - 
+![image](https://github.com/davigtomaz/pi_modelo/assets/94870528/66d6769d-b9cc-47c6-97ee-77ad09feddc6)
+
+
+
 
 # Situação Problema
 
